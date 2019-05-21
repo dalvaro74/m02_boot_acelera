@@ -6,5 +6,5 @@ def sumaTodo(limitTo,f):
     for cont in range(1, limitTo+1):
         resultado += f(cont)
     return resultado
-
-print(sumaTodo(100,normal))
+if __name__ == "__main__": 
+    print(sumaTodo(100,normal))
